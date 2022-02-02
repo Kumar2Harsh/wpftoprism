@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="WPFToPrism.exe" version="1.0.0.2" publicKeyToken="809b222ad0f062a9" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Launcher" version="5.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Launcher.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Launcher.exe" size="15368">
+      <assemblyIdentity name="Launcher" version="5.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>GXhwQl3vCWl0+6iZxHrdnOIPtTH6xxrjp/x8rr72yhk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="AutoMapper.pdb" size="84596">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>1m1KsceM4+DXWLUy3Xp188oyYuPk+MSA4BEpL4rj7tE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ControlzEx.pdb" size="310784">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>XUCOGYH6WHh4EtIDFYO+NKq5E+I4/UxjPCMXYidzkYw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="MahApps.Metro.pdb" size="1261056">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Qap0Vny+QACcB2h+ufkvDDF2k+M0B2RJhoJyrbeHW+w=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="MahApps.Metro.SimpleChildWindow.pdb" size="69120">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>hKD1l+y6ae3ck1vtJm1eiSRAS/Bh9xSLZn6nAz/j2AY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="PrismMain.pdb" size="216576">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>dpbRo3ElIe+ry7AmAjaL8zEOHSIygSdjDsXX2BF8W5c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="WPFToPrism.exe" size="14927832">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>9RW3ERGgvN39Daqu+VXY5RB/ls/fS9kNA01XDL/2Ko0=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=HARSH-HINDUSTAN\Kumar Harsh" issuerKeyHash="896bbf4d3ac5ba9fb6ad54e161d1e4c90cbf9842" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>R9Wziu3Lw0n59xH8S/jQeQVuzYZDjoiAZyU7nTLGHAs=</DigestValue></Reference></SignedInfo><SignatureValue>umHJ55/c0bVV/I5cLi1f7Q9NsrOnirry3AFaMAbmj/xOnUknvP1IT6OpAOahLiEDlXqkNnuV+udOPn5zD0NgOg2FaZsqhccL1tONPz5v6u6dhET7ub1bS2GlbK1d5e1snA6Fgokszf6Yjf30FExVNVnXU0HcAc+pIJzIJLz5WRI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>u8l1sN8JSJawDrT6i4M8UTqUN0oVj2YtpRZE8tVn+q3GfoENNnz+imAGtp1rEuHyaHkdr2GBaxOIKg1u+dQpXUxhgYlYKOGTSpOWhLgqWELhgFIO1jSGiG78ndqbbxp+NxRMXsEXTnKCkXgOhfsocIHDa3VBnsUW8rPvI09X2fk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="0b1cc6329d3b256780888e4386cd6e0579d0f84bfc11f7f949c3cbed8ab3d547" Description="" Url=""><as:assemblyIdentity name="WPFToPrism.exe" version="1.0.0.2" publicKeyToken="809b222ad0f062a9" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=HARSH-HINDUSTAN\Kumar Harsh</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>gsqkfHbaDY/BBhMZ4H/bEDa1ah0zUwc3GFA2aV9COjI=</DigestValue></Reference></SignedInfo><SignatureValue>DzI3cdW1iHouf3aGEzlx71V4w3eDqhiZg7MmhipA8ain6teD9E4zjM1pNL1A9ncpY687NYDk73LaAX1+zn62aX32tJbyNJ57zIr2EtDoON6Ss4zQRgcdM8lBrxpZWQAtOqKD3iuEyze5IKMiuQdY2POHypZKdLznwUk7KszjtD0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>u8l1sN8JSJawDrT6i4M8UTqUN0oVj2YtpRZE8tVn+q3GfoENNnz+imAGtp1rEuHyaHkdr2GBaxOIKg1u+dQpXUxhgYlYKOGTSpOWhLgqWELhgFIO1jSGiG78ndqbbxp+NxRMXsEXTnKCkXgOhfsocIHDa3VBnsUW8rPvI09X2fk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICBTCCAW6gAwIBAgIQQX6yiqVFa4JLy3GaQO0AKTANBgkqhkiG9w0BAQsFADBBMT8wPQYDVQQDHjYASABBAFIAUwBIAC0ASABJAE4ARABVAFMAVABBAE4AXABLAHUAbQBhAHIAIABIAGEAcgBzAGgwHhcNMjIwMTEzMTMyMDQwWhcNMjMwMTEzMTkyMDQwWjBBMT8wPQYDVQQDHjYASABBAFIAUwBIAC0ASABJAE4ARABVAFMAVABBAE4AXABLAHUAbQBhAHIAIABIAGEAcgBzAGgwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALvJdbDfCUiWsA60+ouDPFE6lDdKFY9mLaUWRPLVZ/qtxn6BDTZ8/opgBradaxLh8mh5Ha9hgWsTiCoNbvnUKV1MYYGJWCjhk0qTloS4KlhC4YBSDtY0hohu/J3am28afjcUTF7BF05ygpF4DoX7KHCBw2t1QZ7FFvKz7yNPV9n5AgMBAAEwDQYJKoZIhvcNAQELBQADgYEArKcTsm3OpIITuqnol1YXnXtYvzA6rdUo3Z8aE1POoyyNM3Sf32RTVTcgLTl5FRKUEhlytZUYdUHimDHD9xBZGih3hHwTNzAmthnuOz84TC0eN6xQ/wBbX/lwF8ceesyd7M8IVOoHjHmQXUEkJN99V3SJ/3YU7fk0C/hoTYIvT3U=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
